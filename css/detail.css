@@ -1,0 +1,595 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+li{
+    list-style: none;
+}
+i{
+   font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    height: 527px;
+    margin-top: 24px;
+    background: #fff;
+    overflow: hidden;
+}
+.nav .navGoods{
+    width: 1200px;
+    height: 527px;
+    margin: 0 auto;
+}
+.nav .navGoods #box{
+    margin-top: 24px; 
+    margin-bottom: 56px;
+    width: 570px;
+    height: 447px;
+    float: left;
+}
+.nav .navGoods #box #top{
+    width: 570px;
+    height: 307px;
+}
+.nav .navGoods #box #top .bigtop{
+    width: 570px;
+    height: 307px;
+    position: absolute;
+}
+.nav .navGoods #box #top .bigtop img{
+    width: 570px;
+    height: 307px;
+}
+.nav .navGoods #box #bottom{
+    width: 570px;
+    height: 91px;
+}
+.nav .navGoods #box #bottom #small_ul{
+    width: 570px;
+    height: 91px;
+    margin-top: 10px;
+}
+.nav .navGoods #box #bottom #small_ul li:first-child img{
+    margin-left: 0;
+}
+.nav .navGoods #box #bottom #small_ul li img{
+    width: 138px;
+    height: 91px;
+    float: left;
+    margin-left: 6px;
+}
+.nav .navGoods #box #bottom{
+    width: 570px;
+    height: 91px;
+    margin: 10px  0;
+}
+.nav .navGoods #box #bottom #small_ul li img{
+    width: 138px;
+    height: 91px;
+    margin-right: 6px;
+    display: block;
+    float: left;
+}
+.nav .navGoods #box #bottom #small_ul li:last-child img{
+    margin-right: 0;
+}
+.nav .navGoods #box .listBottom{
+    width: 570px;
+    height: 19px;
+}
+.nav .navGoods #box .listBottom .star{
+    display: inline;
+}
+.nav .navGoods #box .listBottom .star img{
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+    line-height: 19px
+}
+.nav .navGoods #box .listBottom .star span{
+    width: 35px;
+    height: 18px;
+    font-size: 18px；
+    color： #333;
+    font-family: 'PingFangSC-Light';
+    font-weight: 300;
+}
+.nav .navGoods #box .listBottom .share{
+    width: 54px;
+    height: 18px;
+    display: inline;
+    margin-left: 25px;
+}
+.nav .navGoods #box .listBottom .share span{
+    width: 54px;
+    height: 18px;
+    font-size: 18px;
+    color: #DE1C31;
+}
+.nav .navGoods #box .listBottom .share i img{
+    width: 11px;
+    height: 7px;
+}
+.nav .navGoods #box .listBottom .date{
+    width: 178px;
+    height: 18px;
+    color: #333;
+    font-size: 18px;
+}
+.nav .navGoods .right{
+    width: 502px;
+    height: 309px;
+    float: left;
+    margin: 74px 3px 144px 125px;
+}
+.nav .navGoods .right .resName{
+    width: auto;
+    height: 24px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 300;
+}
+.nav .navGoods .right .slogan{
+    width: auto;
+    height: 19px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.nav .navGoods .right .prices{
+    width: 502px;
+    height: 69px;
+    background-color: #DE1C31;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.nav .navGoods .right .prices .proPrices{
+    width: auto;
+    height: 24px;
+    font-size: 20px;
+    color: #FEFEFE;
+    margin: 18px 13px 22px;
+    font-weight: lighter;
+    display: inline-block;
+}
+.nav .navGoods .right .prices .proPrices i{
+    font-size: 20px;
+}
+.nav .navGoods .right .prices .proPrices span{
+    font-size: 30px;
+}
+.nav .navGoods .right .prices .shopPrices{
+    width: auto;
+    height: 15px;
+    font-size: 14px;
+    color: #FEFEFE;
+    padding-top: 33px;
+    font-weight: lighter;
+    display: inline;
+}
+.nav .navGoods .right .informtion{
+    width: 503px;
+    height: 64px;
+    margin-top: 15px;
+}
+.nav .navGoods .right .informtion .soldNum{
+    width: 132px;
+    height: 64px;
+    border-right: 1px solid #999;
+    display: block;
+    float: left;
+}
+.nav .navGoods .right .informtion .soldNum .soldNumt{
+    height: 18px;
+    font-size: 18px;
+    color: #333;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.nav .navGoods .right .informtion .evaNum{
+    width: 229px;
+    height: 64px;
+    border-right: 1px solid #999;
+    display: block;
+    float: left
+}
+.nav .navGoods .right .informtion .evaNum .star{
+    width: 178px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav .navGoods .right .informtion .evaNum .star img{
+    width:20px;
+    height: 20px;
+    margin-left: 8px;
+    display: block;
+    float: left;
+}
+.nav .navGoods .right .informtion .evaNum .star img:first-child{
+    margin-left: 28;
+}
+.nav .navGoods .right .informtion .evaNum .star span{
+    width: 27px;
+    height: 15px;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.nav .navGoods .right .informtion .evaNum .evaNums{
+    width: auto;
+    height: 18px;
+    margin-top: 14px;
+    margin-left: 54px;
+    display: block;
+}
+.nav .navGoods .right .informtion .evaScore{
+    width: 139px;
+    height: 64px;
+    border-right: 1px solid #999;
+    display: block;
+    float: left;
+}
+.nav .navGoods .right .informtion .evaScore .lit{
+    padding-left: 27px;
+    color: #333;
+    font-size: 18px;
+    margin-top: 14px;
+}
+.nav .navGoods .right .informtion .evaScore .lit:first-child{
+    margin-top: 0;
+}
+.nav .navGoods .right .input_wrap{
+    width: auto;
+    height: 21px;
+    display: block;
+    margin-top: 15px;
+}
+.nav .navGoods .right .input_wrap span{
+    width: 43px;
+    height: 18px;
+    color: #666;
+    font-size: 18px;
+}
+.nav .navGoods .right .input_wrap .border{
+    width: 74px;
+    height: 21px;
+    display: inline-block;
+    margin-left: 18px;
+}
+.nav .navGoods .right .input_wrap a{
+    float: left;
+    display: block;
+    width: 17px;
+    height: 19px;
+    border: 1px solid #d9d9d9;
+    background-color: #f7f7f7;
+    color: inherit;
+    text-align: center;
+    line-height: 19px;
+    
+}
+.nav .navGoods .right .input_wrap .item_num{
+    float: left;
+    width: 36px;
+    height: 19px;
+    border: 0;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+}
+.nav .navGoods .right .rushing{
+    width: 112px;
+    height: 30px;
+    background-color: #DE1C31;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+.nav .navGoods .right .rushing span{
+    display: block;
+    width: 72px;
+    height: 18px;
+    color: #fff;
+    margin: 6px 20px;
+    padding: 5px 0;
+}
+
+.present {
+    width: 100%;
+    height: 2827px;
+    margin-top: 30px;
+    background: #fff;
+}
+.present .presentm{
+    width: 1200px;
+    height: 2827px;
+    margin: 0 auto;
+}
+.present .presentm .list{
+    width: 426px;
+    height: 34px;
+    margin-top: 19px;
+    display: inline-block;
+}
+.present .presentm .one{
+    color: #333;
+    font-size: 22px;
+}
+.present .presentm .bulk{
+    width: 110px;
+    height: 34px;
+    display: block;
+    float: left;
+}
+.present .presentm .list .bulk .bulkne{
+    width: 88px;
+    height: 22px;
+    display: block;
+}
+.present .presentm .notes{
+    width: 110px;
+    height: 34px;
+    display: block;
+    float: left;
+}
+.present .presentm .list .notes .notesne{
+    width: 88px;
+    height: 22px;
+    display: block;
+}
+.present .presentm .introduction{
+    width: 110px;
+    height: 34px;
+    display: block;
+    float: left;
+}
+.present .presentm .list .introduction .introductionne{
+    width: 88px;
+    height: 22px;
+    display: block;
+}
+.present .presentm .hr{
+    width: 1200px;
+    height: 2px;
+    background-color: #DE1C31;
+}
+.present .presentm .bulkls{
+    width: 1200px;
+    height: 665px;
+}
+.present .presentm .bulkls .shopImg{
+    width: 371px;
+    height: 22px;
+    margin: 14px 38px 31px;
+    float: left;
+}
+.present .presentm .bulkls .content{
+    float: left;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-top: 13px;
+}
+.present .presentm .bulkls .content .screening{
+    width: 129px;
+    height: 22px;
+    display: inline-block;
+}
+.present .presentm .bulkls .content .screening .screen{
+    width: 42px;
+    height: 19px;
+    font-size: 18px;
+    color: #333;
+}
+.present .presentm .bulkls .content .screening .map{
+    width: 78px;
+    height: 22px;
+    padding: 4px 21px 6px 8px;
+    font-size: 12px;
+}
+.present .presentm .bulkls .hrone{
+    width: 718px;
+    height: 1px;
+    margin-top: 13px;
+    background-color: #999;
+}
+.present .presentm .bulkls .resName{
+    width: 170px;
+    height: 23px;
+    color: #333;
+    font-size: 24px;
+}
+.present .presentm .bulkls .star{
+    margin-top: 11px;
+}
+.present .presentm .bulkls .address{
+    width: 262px;
+    height: 19px;
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.present .presentm .bulkls .tel{
+    width: 211px;
+    height: 17px;
+    color: #333;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.present .presentm .bulkls .times{
+    width: 282px;
+    height: 18px;
+    color: #333;
+    font-size: 18px;
+    margin-top: 14px;
+}
+.present .presentm .bulkls .table{
+    width: 1144px;
+    height: 184px;
+    padding: 31px 19px 23px 38px;
+    clear: both;
+}
+.present .presentm .bulkls .table .detail-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 18px;
+    border: 1px solid #e2e2e2;
+    color: #333;
+}    
+.present .presentm .bulkls .table .detail-table thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.present .presentm .bulkls .table .detail-table thead tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.present .presentm .bulkls .table .detail-table thead tr th{
+    color: #333;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+.present .presentm .bulkls .table .detail-table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.present .presentm .bulkls .table .detail-table tbody .middle td{
+    border: 1px solid #e2e2e2;
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 46px;
+    word-break: break-all;
+    text-align: center;
+}
+.present .presentm .bulkls .table .detail-table tbody .total td{
+    color: #333;
+    background-color: #f2f2f2;
+    font-size: 20px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+.present .presentm .bulkls .all{
+    padding-left: 68px;
+    height: 20px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 16px;
+}
+.present .presentm .bulkls .dish{
+    color: #999;
+}
+.present .presentm .notess{
+    width: 1200px;
+    height: 375px;
+}
+.present .presentm .notess .notesOne{
+    width: 88px;
+    height: 22px;
+    color: #333;
+    font-size: 22px;
+    padding: 3px 10px 8px 3px; 
+    border-bottom: 1px solid #DE1C31;
+}
+.present .presentm .notess .hrTwo{
+    width: 1200px;
+    height: 1px;
+    background-color: #DE1C31;
+}
+.present .presentm .notess .noteslist{
+    width: 1200px;
+    height: 262px;
+    background-color: #F6F6F6;
+    margin: 26px 0;
+    border: 1px solid #DE1C31;
+}
+.present .presentm .notess .noteslist p{
+    height: 18px;
+    margin-top: 18px;
+    margin-left: 16px;
+    color: #333;
+    font-size: 18px;
+}
+.present .presentm .notess .noteslist p:first-child{
+    margin-top: 25px;
+}
+.present .presentm .introduce{
+    width: 1200px;
+    height: auto;
+}
+.present .presentm .introduce .introduceOne{
+    width: 88px;
+    height: auto;
+    color: #333;
+    font-size: 22px;
+    padding: 3px 10px 8px 3px; 
+    border-bottom: 1px solid #DE1C31;
+}
+.present .presentm .introduce .hrThree{
+    width: 1200px;
+    height: 1px;
+    background-color: #DE1C31;
+}
+.present .presentm .introduce .dishImage{
+    width: 1124px;
+    height: 1361px;
+    margin: 11px 38px;
+}
+.present .presentm .introduce .dishImage img{
+    width: 1124px;
+    height: 445px;
+}
+.present .presentm .rob{
+    width:1200px;
+    height: 162px;
+    background-color:#F6F6F6;
+    margin:64px 0;
+    display: inline-block;
+} 
+.present .presentm .rob .rushing{
+    width: 122px;
+    height: 38px;
+    background-color: #DE1C31;
+    border-radius: 10px;
+    margin: 56px 45px 68px 36px;
+    line-height: 38px;
+    display: inline-block;
+}
+.present .presentm .rob .rushing span{
+    width: 72px;
+    height: 18px;
+    margin: 11px 25px 9px 25px;
+    color: #fff;
+}
+.present .presentm .rob .prices{
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    font-size: 30px;
+    color: #DE1C31;
+    margin-top: 62px;
+    padding-right: 87px;
+    border-right: 1px solid #999;
+}
+.present .presentm .rob .buy-bottom-tab{
+    display: inline-block;
+    padding-left: 20px;
+    border-left: 1px solid #fff;
+    width: 290px;
+}    
+.present .presentm .rob .buy-bottom-tab table{
+    border-collapse: separate;
+}
